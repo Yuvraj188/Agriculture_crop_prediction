@@ -1,5 +1,5 @@
 import streamlit as st
-
+import joblib
 # Create a dictionary to map model names to their corresponding pickle files
 model_files = {
     "Ensemble": "./models/Ensemble.pkl",
