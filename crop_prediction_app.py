@@ -1,9 +1,9 @@
+library_name="joblib"
+subprocess.call(["pip","install",library_name])
 import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-library_name="joblib"
-subprocess.call(["pip","install",library_name])
 # Create a dictionary to map model names to their corresponding pickle files
 model_files = {
     "Ensemble": "./models/Ensemble.pkl",
