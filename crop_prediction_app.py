@@ -1,5 +1,4 @@
-library_name="joblib"
-subprocess.call(["pip","install",library_name])
+
 import streamlit as st
 import numpy as np
 import pandas as pd
