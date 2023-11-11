@@ -20,7 +20,7 @@ selected_model = st.sidebar.selectbox("Choose a model for prediction", list(mode
 model_file = model_files[selected_model]
 model = joblib.load(model_file)
 
-# Main content
+#main content
 st.title("Crop Prediction Using Machine Learning")
 
 st.write("This application allows you to predict the most suitable crop based on input parameters using different models.")
