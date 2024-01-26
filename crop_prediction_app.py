@@ -9,7 +9,7 @@ model_files = {
     "KNNClassifier": "./models/KNNClassifier.pkl",
     "NBClassifier": "./models/NBClassifier.pkl",
     "RandomForest": "./models/RandomForest.pkl", 
-    "SVMClassifier": "./models/SVMClassifier.pkl"  
+    "SVMClassifier": "./models/SVMClassifier.pkl"   
 }
  
 # Sidebar with model selection
