@@ -8,7 +8,7 @@ model_files = {
     "Ensemble": "./models/Ensemble.pkl",
     "KNNClassifier": "./models/KNNClassifier.pkl",
     "NBClassifier": "./models/NBClassifier.pkl",
-    "RandomForest": "./models/RandomForest.pkl",
+    "RandomForest": "./models/RandomForest.pkl", 
     "SVMClassifier": "./models/SVMClassifier.pkl"  
 }
 
