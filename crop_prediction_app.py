@@ -22,7 +22,7 @@ model = joblib.load(model_file)
 
 #main content
 st.title("Crop Prediction Using Machine Learning")
-
+ 
 st.write("This application allows you to predict the most suitable crop based on input parameters using different models.")
 
 # Input parameters
