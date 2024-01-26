@@ -11,7 +11,7 @@ model_files = {
     "RandomForest": "./models/RandomForest.pkl", 
     "SVMClassifier": "./models/SVMClassifier.pkl"  
 }
-
+ 
 # Sidebar with model selection
 st.sidebar.title("Select Model")
 selected_model = st.sidebar.selectbox("Choose a model for prediction", list(model_files.keys()))
